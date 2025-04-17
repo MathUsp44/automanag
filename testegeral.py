@@ -2,7 +2,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 
-organization = 'sua-organizacao'  # Substitua pelo nome da sua organização no Azure DevOps
+organization = 'org'  
 project = 'seu-projeto'  # Substitua pelo nome do seu projeto no Azure DevOps
 work_item_id = 123  # Substitua pelo ID do Work Item que você deseja consultar
 pat = 'seu-pat-aqui'  # Substitua pelo seu Personal Access Token
