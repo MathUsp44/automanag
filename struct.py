@@ -6,6 +6,7 @@ senha = 'senha'
 host = '192.168.1.100'
 porta = '5432'
 banco = 'comercial_db'
+#setConectDB
 
 conexao_str = f'postgresql://{usuario}:{senha}@{host}:{porta}/{banco}'
 engine = create_engine(conexao_str)
